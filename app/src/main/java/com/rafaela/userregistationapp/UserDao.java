@@ -24,4 +24,6 @@ public interface UserDao {
     @Query("SELECT * FROM user")
     //Salvar o que foi selecionado no Banco de dados em uma lista
     List<User>getAllUsers();
+
+    void insert(User user);
 }

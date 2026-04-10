@@ -7,12 +7,13 @@
     android:padding="16dp">
 
     <TextView
-        android:id="@+id/TextViewReport"
+        android:id="@+id/textViewReport"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Relatório de Usuários"
         android:textSize="18sp"
          />
+
     <Button
         android:id="@+id/btnVoltar"
         android:layout_width="wrap_content"
