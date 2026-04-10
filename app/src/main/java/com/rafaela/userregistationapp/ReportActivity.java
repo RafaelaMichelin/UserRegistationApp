@@ -23,7 +23,7 @@ public class ReportActivity extends AppCompatActivity {
         //DEFINE O LAYOUT XML DESSA TELA DE RELATÓRIO
         setContentView(R.layout.activity_report);
         //MAPEAMENTO DO TEXTVIEW DO XML PARA O JAVA
-        textViewReport = findViewById((R.id.textViewReport);
+        textViewReport = findViewById(R.id.textViewReport);
         //ENCONTRA O BOTÃO E DEFINE O CLIQUE PARA VOLTAR
         Button btnVoltar = findViewById(R.id.btnVoltar);
         //O BOTÃO DE RETORNO UTILIZANDO EXPRESSÃO LAMBDA

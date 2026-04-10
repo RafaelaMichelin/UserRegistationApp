@@ -28,5 +28,7 @@ public abstract class UserDatabase extends RoomDatabase {
                     UserDatabase.class,"user-database").fallbackToDestructiveMigration().allowMainThreadQueries().build();
 
         }
+        //Retorna instância criada
+        return instance;
     }
 }
